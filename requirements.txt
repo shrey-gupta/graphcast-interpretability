@@ -22,7 +22,7 @@ tensorstore==0.1.76
 dinosaur-dycore==1.2.1
 
 # GraphCast fork
-graphcast @ git+ssh://git@github.com/theodoremacmillan/graphcast.git@423554fe102cc602b634701a1849c6f5b7bedead
+graphcast @ git+ssh://git@github.com/theodoremacmillan/graphcast.git@a64f7934a7ea58549f45279808d01c04ab5de106
 
 # -----------------------------------------------------------------------------
 # Data / ERA5 I/O
@@ -93,3 +93,14 @@ urllib3==2.5.0
 packaging==25.0
 six==1.17.0
 typing_extensions==4.15.0
+
+# -----------------------------------------------------------------------------
+# Google Cloud (GraphCast checkpoints / demos)
+# -----------------------------------------------------------------------------
+google-cloud-storage==3.3.0
+google-api-core==2.25.1
+google-auth==2.40.3
+google-auth-oauthlib==1.2.2
+google-resumable-media==2.7.2
+googleapis-common-protos==1.70.0
+protobuf==6.32.0
