@@ -6,6 +6,15 @@ This repository contains code and utilities accompanying the paper:
 > *Mechanistic interpretability in a deep-learning physics model*  
 > *(submitted / under review)*
 
+Some fun features to look at include the hurricane tracking feature
+
+![Feature 3243 aligned with a tropical cyclone](figures/hurricane_single.png)
+
+Or the Pineapple express
+
+![Feature 1820 aligned with an atmospheric river](figures/ar_single.png)
+
+
 The focus of this codebase is **mechanistic interpretability of DeepMind’s GraphCast weather model**, using sparse autoencoders (SAEs) to identify physically meaningful features in intermediate GraphCast representations.
 
 The primary runnable artifact at present is a **Google Colab notebook** that reproduces a key hurricane case study from the paper. Other components are utilities and scripts used during large-scale analysis on HPC systems. We are working to publish these as well.
